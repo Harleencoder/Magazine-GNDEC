@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    border: 1px solid black ;
+    width: 100%;
+    background-color: aquamarine;
+    height: 65px;
+    box-sizing: border-box;
+}
+.logo {
+    display: inline;
+    float: left;
+}
+.logo-gndec {
+    height: 55px;
+    width: 59px;
+    
+}
+.name {
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
