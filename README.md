@@ -13,7 +13,7 @@
 |   |-📁pages/ \\ All the pages of magazine will be added in this folder with name as pagenumber.png \
 |   |   |-1.png \
 |   |   |-2.png \
-|   |   |-...png
+|   |   |-...png \
 |   |-📁images/ \\ All the images except pages will be added in this folder \
 |   |   |-logos \
 |   |   |-any other image \
