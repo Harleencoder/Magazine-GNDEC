@@ -5,7 +5,8 @@
 📁Magazine-GNDEC \
 | \
 |-README.md \
-|-LICENSE \ 
+|-LICENSE \   
+
 |-index.html \\ Everything will be rendered here  \
 |-📁assets/ \
 |   |-style.css \\ CSS file for index.html \
