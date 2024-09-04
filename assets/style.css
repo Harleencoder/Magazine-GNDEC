@@ -5,21 +5,94 @@ body {
 .header {
     border: 1px solid black ;
     width: 100%;
-    background-color: aquamarine;
-    height: 65px;
+    background-color: aliceblue;
+    height: auto;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .logo {
     display: inline;
     float: left;
 }
 .logo-gndec {
-    height: 55px;
-    width: 59px;
+    height: 130px;
+    width: 130px;
     
 }
 .name {
-    font-size: larger;
     font-weight: bolder;
     font-style: oblique;
+    display: inline;
+    text-align: center;
 }
+.toggle {
+    margin-right: 20px;
+    background-color: pink !important;
+    color: black !important;
+    border: 1px black ridge  !important;
+}
+.nameL1 {
+    color: gold;
+    background-color: red;
+    padding:2px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2dvw;
+}
+.nameL2 {
+    color: gold;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 2dvw;
+}
+.nameL3 {
+    color: blue;
+    border-radius: 5px;
+    font-size: 0.8dvw;
+}
+.nameL4 {
+    color: red;
+    border-radius: 5px;
+    font-size: 0.8dvw;
+}
+.name:link , name:visited {
+    color: gold;
+    text-decoration: none;
+}
+.name:hover , name:active {
+    color: gold;
+    text-decoration: none;
+}
+@media screen and (max-width: 680px) {
+    .nameL1 {
+        font-size: 2vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+    }
+    .nameL2 {
+        font-size: 2vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+    }
+    .nameL3 {
+        font-size: 1.5vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+        line-height: 0.5;
+    }
+    .nameL4 {
+        font-size: 1.5vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+        line-height: 0.5;
+    }
+    .logo-gndec {
+        height: 70px;
+        width: 70px;
+    }
+  }
