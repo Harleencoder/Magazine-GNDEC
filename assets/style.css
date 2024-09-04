@@ -162,7 +162,7 @@ button {
     align-items: center;
 
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 437px) {
     .nameL1 {
         font-size: 2vw;
         font-weight: bold;
@@ -192,5 +192,13 @@ button {
     .logo-gndec {
         height: 70px;
         width: 70px;
+    }
+    .image-container {
+        height: 400px;
+        width: 937px;
+    }
+    .content-page {
+        height: 400px;
+        width: 937px;
     }
 }
