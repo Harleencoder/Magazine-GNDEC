@@ -75,7 +75,7 @@ body {
 }
 
 #contents-list li {
-    font-size: 1.2em;
+    font-size: 1dvw;
     color: #fff;
     background-color: #e75480;
     padding: 10px 15px;
@@ -92,7 +92,6 @@ body {
 
 #contents-list li::after {
     content: attr(data-page);
- 
     font-weight: bold;
 }
 @media screen and (max-width: 680px) {
