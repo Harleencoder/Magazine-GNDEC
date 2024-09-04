@@ -4,7 +4,7 @@ body {
 }
 .header {
     border: 1px solid black ;
-    width: 100%;
+    width: auto;
     background-color: aliceblue;
     height: auto;
     box-sizing: border-box;
@@ -156,11 +156,19 @@ button {
     width: 22vw;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 3px;
-    border: #d7436b 1px solid;
-    background-color: #e75480;
     align-items: center;
 
+}
+
+@media screen and (max-width: 615px) {
+    .image-container {
+        height: 920px;
+        width: 500px;
+    }
+    .content-page {
+        height: 920px;
+        width: 500px;
+    }
 }
 @media screen and (max-width: 437px) {
     .nameL1 {
@@ -190,15 +198,15 @@ button {
         line-height: 0.5;
     }
     .logo-gndec {
-        height: 55px;
-        width: 55px;
+        height: 40px;
+        width: 40px;
     }
     .image-container {
-        height: 400px;
-        width: 937px;
+        height: 880px;
+        width: 400px;
     }
     .content-page {
-        height: 400px;
-        width: 937px;
+        height: 880px;
+        width: 400px;
     }
 }
