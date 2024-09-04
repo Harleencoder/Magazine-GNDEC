@@ -162,7 +162,7 @@ button {
     align-items: center;
 
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 980px) {
     .nameL1 {
         font-size: 2vw;
         font-weight: bold;
