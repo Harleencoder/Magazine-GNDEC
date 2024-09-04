@@ -64,6 +64,37 @@ body {
     color: gold;
     text-decoration: none;
 }
+#contents-list {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    background-color: #ffeff1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#contents-list li {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #e75480;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contents-list li:hover {
+    background-color: #d7436b;
+}
+
+#contents-list li::after {
+    content: attr(data-page);
+ 
+    font-weight: bold;
+}
 @media screen and (max-width: 680px) {
     .nameL1 {
         font-size: 2vw;
