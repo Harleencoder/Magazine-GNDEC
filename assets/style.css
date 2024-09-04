@@ -119,7 +119,7 @@ button {
     margin: 0 5px; 
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid darkviolet;
+    border: 2px solid black;
     border-radius: 9px;   
 }  
 .btn1 {
@@ -160,16 +160,6 @@ button {
 
 }
 
-@media screen and (max-width: 615px) {
-    .image-container {
-        height: 920px;
-        width: 500px;
-    }
-    .content-page {
-        height: 920px;
-        width: 500px;
-    }
-}
 @media screen and (max-width: 437px) {
     .nameL1 {
         font-size: 2vw;
@@ -208,5 +198,43 @@ button {
     .content-page {
         height: 880px;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .nameL1 {
+        font-size: 2vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+    }
+    .nameL2 {
+        font-size: 2vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+    }
+    .nameL3 {
+        font-size: 1.5vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+        line-height: 0.5;
+    }
+    .nameL4 {
+        font-size: 1.5vw;
+        font-weight: bold;
+        padding: none;
+        margin: none;
+        line-height: 0.5;
+    }
+   
+    .image-container {
+        height: 880px;
+        width: 450px;
+    }
+    .content-page {
+        height: 880px;
+        width: 450px;
     }
 }
